@@ -25,6 +25,7 @@ public class UnitTest1
         int retValue = SubClass.Sub(num1, num2);
 
         Assert.AreEqual(retValue, num1 - num2);
+        Assert.AreEqual(retValue, num1 - num2);
     }
 
     [TestMethod]
