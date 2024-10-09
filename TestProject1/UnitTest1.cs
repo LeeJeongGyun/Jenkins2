@@ -26,6 +26,7 @@ public class UnitTest1
 
         Assert.AreEqual(retValue, num1 - num2);
         Assert.AreEqual(retValue, num1 - num2);
+        Assert.AreEqual(retValue, num1 - num2);
         Assert.AreEqual(retValue, num1 + num2);
         Assert.AreEqual(retValue, num1 + num2);
     }
